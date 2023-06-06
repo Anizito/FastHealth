@@ -5,7 +5,7 @@ header{
     display: flex;
     min-height: 70px;
     justify-content: space-between;
-    background-color: whitesmoke;
+    background-color:skyblue;
     align-items: center;
 }
 
@@ -22,12 +22,14 @@ a{
 }
 nav a{
     font-weight: 600;
-    padding-right: 50px;
     font-size: 18px ;
+    margin-right: 50px;
+    padding: 10px;
 
 }
 nav a:hover{
-    color:blue;
+    background-color:blue;
+    display: inline;
 
 }
 .logo
@@ -64,6 +66,7 @@ nav a:hover{
     align-items: flex-start; 
     font-size: 26px;
     justify-content: center;
+    margin-top:auto;
 }
 
 .Contenido {
@@ -72,3 +75,32 @@ nav a:hover{
     text-align: center;
     max-width: 500px; 
   }
+.banner{
+  
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: -1;
+  margin: 0;
+
+}
+.banner img{
+    height: 100%;
+    width: 100%;
+}
+.banner h2
+{
+    font-size: 100px;
+    color:white;
+    position: absolute;
+    top: 15%;
+    right: 15%;
+}
+.banner span{
+
+    font-size: 25px;
+    color:white;
+    position: absolute;
+    top: 48%;
+    right: 5%;
+}
