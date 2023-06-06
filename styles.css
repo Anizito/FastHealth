@@ -9,12 +9,6 @@ header{
     align-items: center;
 }
 
-.descripcion{
-    background-color: #BEF5FF;
-    padding: 10px;
-    
-}
-
 a{
     text-decoration: none;
     color:black;
@@ -59,16 +53,20 @@ nav a:hover{
 
     }
 }
-#cajas{
-    display: flex;
-    align-items: flex-start; 
-    font-size: 26px;
-    justify-content: center;
+
+
+img{
+    width: 100px;
+    height: auto;
 }
 
-.Contenido {
-    flex: 1;
-    margin-right: 10px; 
-    text-align: center;
-    max-width: 500px; 
-  }
+label{
+    display: block;
+}
+
+
+
+
+
+
+
