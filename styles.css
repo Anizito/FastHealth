@@ -64,6 +64,24 @@ label{
     display: block;
 }
 
+.descripcion{
+    background-color: #BEF5FF;
+    display: inline-block;
+    width: 400px;
+    padding: 10px;
+    font-size: 26px;
+    text-align: center;
+}
+
+h3{
+    margin-bottom:0;
+    font-size: 36px;
+}
+
+h4{
+    font-size: 20px;
+}
+
 
 
 
