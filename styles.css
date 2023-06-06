@@ -109,14 +109,14 @@ h4{
   }
   .banner h2
   {
-      font-size: 100px;
+      font-size: 64px;
       color:white;
       position: absolute;
       top: 15%;
       right: 15%;
   }
   .banner span{
-      font-size: 25px;
+      font-size: 20px;
       color:white;
       position: absolute;
       top: 48%;
@@ -130,13 +130,41 @@ h4{
     margin: 0 20px; 
  }
 
- #informacion {
+
+#informacion {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom:30px;
   }
 
+  #fraseDatos{
+    display: inline-block;
+    font-size: 32px;
+    width: 400px;
+    position: relative;
+    left: 180px;
+    margin-bottom: 50px;
+  }
 
-#imagenes{
-    width: 500px;
-    height: auto;
+section h2{
+    font-size: 54px;
+    margin-left: 180px;
 }
+
+.casillas label{
+    font-size: 15px;
+    margin-left: 180px;
+    margin-bottom: 20px;
+    max-width: 400px;
+    
+}
+
+
+
+  
+
+
+
+
+
