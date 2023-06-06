@@ -3,7 +3,7 @@ body{
 }
 header{
     display: flex;
-    min-height: 70px;
+    height: 100px;
     justify-content: space-between;
     background-color:white;
     align-items: center;
@@ -36,16 +36,16 @@ nav a:hover{
 {
     display: flex;
     align-items: center;
-    font-size: 64px ;
+    font-size: 50px ;
 
 }
 .logo img {
-    height: 50px;
     margin-right: 100px;
-   width: 250px;
-   height: 150px;
+   width: 150px;
+   height: auto;
 
 }
+
 @media (max-width:700px) {
     header{
         flex-direction: column;
@@ -72,7 +72,6 @@ label{
     width: 400px;
     padding: 10px;
     font-size: 26px;
-    justify-content: center;
 }
 
 h3{
@@ -117,13 +116,33 @@ h4{
       right: 15%;
   }
   .banner span{
-  
       font-size: 25px;
       color:white;
       position: absolute;
       top: 48%;
       right: 5%;
   }
+
+  .cajitas{
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 20px; 
+ }
+
+ #informacion {
+    display: flex;
+    justify-content: center;
+  }
+
+
+ 
+
+
+
+  
+
+
   
 
 
