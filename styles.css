@@ -1,0 +1,19 @@
+.descripcion{
+    background-color: #BEF5FF;
+    padding: 10px;
+    
+}
+
+#cajas{
+    display: flex;
+    align-items: flex-start; 
+    font-size: 26px;
+    justify-content: center;
+}
+
+.Contenido {
+    flex: 1;
+    margin-right: 10px; 
+    text-align: center;
+    max-width: 500px; 
+  }
