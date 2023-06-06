@@ -142,23 +142,64 @@ h4{
     display: inline-block;
     font-size: 32px;
     width: 400px;
-    position: relative;
-    left: 180px;
     margin-bottom: 50px;
   }
 
 section h2{
     font-size: 54px;
-    margin-left: 180px;
+    margin-top: 0;
 }
 
-.casillas label{
+.casillas {
     font-size: 15px;
-    margin-left: 180px;
-    margin-bottom: 20px;
-    max-width: 400px;
+}
+
+#datos{
+    display: flex;
+    margin: 0 180px 0 180px;
+    border: 1px solid black;
     
 }
+
+#datos .casillas, #datos .figuritas{
+    border: 1px solid black;
+    flex: 1;
+}
+
+
+
+.casillas span, .casillas h2{
+    text-align: left;
+}
+
+#entradas div{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#entradas input{
+    width: 200px;
+    height: 20px;
+    margin-right: 100px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 1px rgba(0, 0, 0, 0.25); 
+    border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.filas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.figuritas img{
+border: 1px solid black;
+}
+    
+
+
+
+
 
 
 
