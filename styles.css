@@ -229,8 +229,31 @@ section h2{
     margin-top:260px;
 }
 
+#barra_contacto_redes{
+    background-color: #275577; /* Color de fondo de la barra */
+    padding: 20px; /* Espacio interno de la barra */
+    text-align: center; /* Centrar el contenido horizontalmente */
+    display: flex; /* Utilizar flexbox para controlar la disposición */
+    align-items: center; /* Centrar verticalmente los elementos */
+    justify-content: center; /* Centrar horizontalmente los elementos */
+}
 
+#barra_contacto_redes button{
+    height: 54px;
+    width: 281px;
+    font-size: 20px;
+    background-color: #8F8F8F; /* Color de fondo del botón */
+    color: #FFFFFF; /* Color del texto del botón */
+    padding: 5px 10px; /* Espacio interno del botón */
+    border: none; /* Eliminar borde del botón */
+    border-radius: 10px; /* Redondear esquinas del botón */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Sombra del botón */
+    margin-right: 100px; /* Espacio entre el botón y los logos */
+}
 
+#barra_contacto_redes img{
+    margin-right: 30px;
+}
 
 
 
