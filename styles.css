@@ -231,6 +231,7 @@ section h2{
     margin-top:260px;
 }
 
+
 #barra_contacto_redes{
     background-color: #275577; /* Color de fondo de la barra */
     padding: 20px; /* Espacio interno de la barra */
@@ -254,7 +255,8 @@ section h2{
 }
 
 #barra_contacto_redes img{
-    margin-right: 30px; 
+    margin-right: 30px;
+    width: 60px;
 }
 
 
