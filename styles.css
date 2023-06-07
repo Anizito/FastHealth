@@ -163,12 +163,10 @@ section h2{
 #datos{
     display: flex;
     margin: 0 140px 0 140px;
-    border: 1px solid black;
     
 }
 
 #datos .casillas, #datos .figuritas{
-    border: 1px solid black;
     flex: 1;
 }
 
@@ -212,7 +210,6 @@ section h2{
 /*Imagenes */
 
 .figuritas img{
-    border: 1px solid black;
     flex-grow: 1;
 
 }
