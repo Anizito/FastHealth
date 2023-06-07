@@ -1,70 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fast Health</title>
-  </head>
-  <body>
-    <header>
-        <div class="logo">
-            <img src = "image 5 (1).png" alt="logo de la empresa">
-
-        </div>
-        <h1 class="nombre de la compañia"> Fast Health Inc. </h1>
-        <nav>
-            
-            <a class ="active" href="#">Pagina Principal</a>
-            <a href="#">Crear Cuenta</a>
-            <a href="#">Contacto</a>
-            
-        </nav>
-    </header>
-    <section class = "banner">
-        <img src = "pexels-andrea-piacquadio-3776659 1.png" alt="logo de la empresa">
-        <h2>Bienvenidos</h2>
-        <span>Encuentra varios centros de salud cercanos y compra cualquier producto de farmacias cercanas</span>
-        
-    </section>
-
-    <div id = "informacion">
-        <section class = "cajitas" id = "nosotros">
-            <h3><em>Nosotros</em></h3>
-            <p class = "descripcion">Somos una empresa que recién apertura sus operaciones en este rubro. Nuestro objetivo
-                es acercar al usuario a lo que está buscando, en este caso, establecimientos de salud
-                y productos de farmacias.
-            </p>
-        </section>
-
-        <section class = "cajitas">
-            <h3><em>Nuestra App</em></h3>
-            <p class = "descripcion">Este aplicativo te ayudará a encontrar cualquier centro de salud cercano, así como poder
-                encontrar farmacias y comprar en líneas sus productos, como los medicamentos.
-            </p>
-        </section>
-         
-        <section class = "cajitas" id ="descarga">
-            <h4><strong>Descarga nuestra app:</strong></h4>
-            <div id = "imagenes">
-                <img id="applogo" src = "logo.png">
-
-                <div id = "tiendas">
-                    <img src = "https://texttofloss.com/wp-content/uploads/2021/01/Google-Play-Store-Button.png">
-                    <img src = "https://www.pngkit.com/png/full/322-3225520_download-the-app-available-on-the-app-store.png">
-                </div>
-
-                <div id="codigoqr">
-                    <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Codigo_QR.svg/2048px-Codigo_QR.svg.png">
-                    <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Codigo_QR.svg/2048px-Codigo_QR.svg.png">
-                </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Fast Health</title>
+    </head>
+    <body>
+        <header>
+            <img src="logo.png" alt="">
+            <h2 class="titulo"> Fast Health Inc.</h2>
+            <input type="checkbox" id="check">
+            <label for="check" class="mostrar-menu">
+                &#8801
+            </label>
+            <nav class="menu">
+                <a href="#banner">Pagina Principal</a>
+                <a href="#datos">Registrarse</a>
+                <a href="#contactos">Contactános</a>
+                <label for="check" class="esconder-menu">
+                    &#215
+                </label>
+            </nav>     
+        </header>
+        <section id="banner">
+            <div class="conteiner-banner">
+                <h3><span>Bienvenido</span><br>"Tus Centros de Salud, cerca de ti"</h3>
+                
+            </div>
+        </section>  
+        <section  id="cuadrados">
+            <div>
+                <h4>Nosotros</h4>
+                <p>Somos una empresa que recién apertura sus operaciones en este rubro. Nuestro objetivo es acercar al usuario a lo que está buscando, en este caso, establecimientos de salud y productos de farmacias.</p>
     
-            </div> 
+            </div>
+             <div>
+                <h4>Nuestra App</h4>
+                <p>Este aplicativo te ayudará a encontrar cualquier centro de salud cercano, así como poder encontrar farmacias y comprar en linea sus productos, como los medicamentos</p>
+    
+             </div>
+             <div class="4">
+                <h3>DESCARGA NUESTRA APP:</h3>
+                
+                <img src="codigo qr.png" alt="">
+    
+             </div>
+    
         </section>
-    </div>
 
 
-    <section id="datos">
+    <section class ="datos" id="datos">
         
         
         <div class = "casillas">
@@ -109,7 +96,7 @@
 
     </section>
 
-    <section>
+    <section id="contactos">
         <span><strong><em>"Siempre a tu disposición"</em></strong></span> <br>
         <img src="joy-online-support-service-1 1.png">
         <form>
@@ -122,11 +109,7 @@
         </form>
         <img src="clip-man-stands-next-to-question-mark 1.png">
         <span>Síguenos en nuestras redes: </span>
-        <img src="image 13.png">
-        <img src="image 14.png">
-        <img src="image 15.png"> 
 
-    </section>
     <section  id="Imagenes_de_contacto">
         <img src="joy-online-support-service-1 1.png"> 
         <div class="boton-enviar">
@@ -135,15 +118,19 @@
         <img src="clip-man-stands-next-to-question-mark 1.png">
     </section>
     
+
     <section id="barra_contacto_redes">
         <div class="barra-color">
             <button>Siguenos en nuestras redes:</button>
         </div>
-        <img src="facebook_logo.svg">
-        <img src="instagram_logo.svg">
-        <img src="twitter_logo.svg">
-    </section> 
 
+
+
+
+        <img src="facebook_logo.png">
+        <img src="instagram_logo.png">
+        <img src="twitter_logo.png">
+    </section>
 
 
     </body>
