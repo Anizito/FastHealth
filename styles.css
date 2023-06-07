@@ -259,6 +259,29 @@ section h2{
     width: 60px;
 }
 
+#Imagenes_de_contacto button {
+    background-color: #1E78FE;
+    color:  #FFFFFF ; 
+    border-radius: 10px; 
+    border: none;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); 
+    height: 40px ;
+    width: 113px ;
+}
+
+#Imagenes_de_contacto {
+    text-align: center; /* Centrar el contenido horizontalmente */
+    display: flex; /* Utilizar flexbox para controlar la disposición */
+    align-items: center; /* Centrar verticalmente los elementos */
+    justify-content: center; /* Centrar horizontalmente los elementos */
+
+
+}
+#Imagenes_de_contacto img {
+    margin-right: 300px; 
+    
+}
+
 
 
 
