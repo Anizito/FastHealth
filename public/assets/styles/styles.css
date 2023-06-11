@@ -150,7 +150,14 @@ header{
     width: 400px;
     margin-bottom: 50px;
   }
-
+  #fraseContacto{
+    display: inline-block;
+    font-size: 32px;
+    width: 1650px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-style: bold;
+  }
 section h2{
     font-size: 54px;
     margin-top: 0;
@@ -158,6 +165,12 @@ section h2{
 
 .casillas {
     font-size: 15px;
+}
+
+.contacto{
+    font-size: 17px;
+    text-align: center;
+    font-style: bold;
 }
 
 #datos{
@@ -180,6 +193,24 @@ section h2{
     display: flex;
     margin-bottom: 20px;
 }
+#contenido1 input{
+    width: 257px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 7px;
+    box-shadow: 2px 4px 1px rgba(0, 0, 0, 0.25); 
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    margin-bottom: 10px;
+}
+#contenido2 input{
+    width: 590px;
+    height: 200px;
+    margin-left: 52px;
+    border-radius: 7px;
+    box-shadow: 2px 4px 1px rgba(0, 0, 0, 0.25); 
+    border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
 
 #entradas input{
     width: 300px;
@@ -275,7 +306,7 @@ section h2{
 
 }
 #Imagenes_de_contacto img {
-    margin-right: 300px; 
+    margin-right: 400px; 
     
 }
 
