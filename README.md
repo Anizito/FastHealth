@@ -31,8 +31,8 @@ La función de Compra de Medicamentos permite a los usuarios buscar, seleccionar
 
 4. Métodos de pago: El aplicativo integra diferentes métodos de pago para facilitar las transacciones. Los usuarios pueden realizar pagos utilizando tarjetas de crédito/débito, Pago Efectivo, Yape, Plin u otras opciones de pago seguro. Esto brinda flexibilidad y comodidad a la hora de finalizar la compra.
 
-### 2. Búsqueda de Centros de Salud
-La función de búsqueda de centros de salud permite a los usuarios buscar, visualizar e informarce de los Centros de Salud más cercanos. Esta característica brinda la facilidad de encontrar un centro médico que se acople a tus necesidades desde la comodidad de sus dispositivos móviles.
+### 2. Búsqueda de Centros de Medicos
+La función de búsqueda de centros de medicos permite a los usuarios buscar, visualizar e informarce de los Centros de Salud y Farmacias más cercanos. Esta característica brinda la facilidad de encontrar un centro médico que se acople a tus necesidades desde la comodidad de sus dispositivos móviles.
 
 1. Ubicacion de centros de salud mediante mapa: El aplicativo integra un mapa en donde se ubican los centros medicos. Siempre saliendo los mas cercanos al usuario.
 2. Busqueda:  Los usuarios pueden buscar distintos centos de salud mediante la barra de busqueda.
