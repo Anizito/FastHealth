@@ -2,9 +2,21 @@
 
 ## Información del Proyecto
 
++ Startup: Fast Health Inc.
++ Producto: FastHealth
+
 ## Autores
 
++ Aguirre Rodríguez, Gustavo Jandroel - u202124162
++ Lagos Aguilar, Luis Eduardo - u202121975
++ Llamocuro Hermosilla, Bryan Anderson - u202015775
++ Serrano Uchuya, Gerald Patricio - u202122876
++ Solano Tanta, Diego - u202123326
++ Vargas Revollé, Ariana - u20221a928
+
 ## Segmentos Objetivo
+
++ Público en general con una edad que ronda entre los 18 a 65 años quienes deseen ubicar centros médicos y su información respectiva; y medicamentos en farmacias cercanas.
 
 ## Principales Caracteristicas ofrecidas por la Solución General
 
