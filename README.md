@@ -4,6 +4,10 @@
 
 + Startup: Fast Health Inc.
 + Producto: FastHealth
++ ¿Quiénes somos?
+  - Somos una pequeña empresa conformada por estudiantes de ingeniería de software y sistemas de la UPC que brinda servicios de búsqueda relacionados al sector de salud pública al cliente peruano, de tal forma que abarca tanto a clientes del sector público y privado.
++ Nuestro objetivo:
+  - Implementar un buen servicio de salud a través de un aplicativo a todo el público logrando expandirnos a todas las regiones del Perú y transformarla en un método de acceso a servicios de salud eficiente.
 
 ## Autores
 
