@@ -263,6 +263,57 @@ header{
       }
 }
 
+#barra_contacto_redes{
+display: grid;
+grid-template-areas:
+  'logo-texto enlaces contacto'
+  'linea linea linea'
+  'copyright copyright redes-sociales';
+gap: 10px;
+background-color: #275577;
+color: #fff;
+padding: 80px;
+}
+
+.logo-texto {
+  grid-area: logo-texto;
+  text-align: justify;
+  font-size: 15px;
+  width: 800px;
+}
+
+.enlaces {
+  grid-area: enlaces;
+  font-size: 15px;
+  width: 200px;
+}
+
+.contacto {
+  grid-area: contacto;
+  font-size: 15px;
+  width: 250px;
+}
+
+.linea {
+  grid-area: linea;
+  height: 1px;
+  background-color: #999;
+}
+
+.redes-sociales {
+  grid-area: redes-sociales;
+}
+
+.redes-sociales img{
+  height: 35px;
+  width: 35px;
+}
+
+.copyright {
+  grid-area: copyright;
+  font-size: 15px;
+}
+
 
 
 
