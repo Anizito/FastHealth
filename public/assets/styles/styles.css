@@ -1,3 +1,93 @@
+
+*{
+  margin:0;
+  padding: 0;
+}
+
+.formulario{
+  display: flex;
+  width: 85%;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  margin: 2rem auto;
+}
+
+.registro, .funcionalidad{
+  flex: 1;
+  min-width: 250px;
+}
+
+.eslogan{
+  font-weight: bold;
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+  width: 11rem;
+  font-style: italic;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.indicacion{
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.fila{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0.5rem 0;
+}
+
+.datos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+}
+
+.fila label, .fila input{
+  min-width: 100px;
+}
+
+.fila label{
+  font-size: 0.5rem;
+  width: 5rem;
+  margin-right: 1rem;
+  height: 0.5rem;
+  margin-top: 0.2rem;
+}
+
+.fila input:focus{
+  outline: none;
+}
+.fila input{
+  width: 10rem;
+  height: 1rem;
+  border-radius: 7px;
+  box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25); 
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  font-size: 0.5rem;
+  padding: 1px .5rem;
+}
+
+.btnRegistro button{
+  background-color: #3E99C9;
+  color: white;
+  border-radius: 7px;
+  padding: 5px 15px;
+  font-size: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 4px 1px rgba(0, 0, 0, 0.25);
+  margin-top: 1rem; 
+}
+
+.btnRegistro button:active {
+  background-color: #3E99C9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transform: translateY(1px);
+}
+
+
 /*Reset*/
 *{
     margin: 0;
@@ -5,6 +95,7 @@
     font-family: 'Roboto Condensed', sans-serif;
     font-style: italic;
 }
+
 
 /*Encbezado*/
 header{
