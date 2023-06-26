@@ -9,7 +9,7 @@
   width: 85%;
   flex-wrap: wrap;
   box-sizing: border-box;
-  margin: 10rem auto;
+  margin: 180px auto;
 }
 
 .registro, .funcionalidad{
@@ -19,29 +19,30 @@
 
 .eslogan{
   font-weight: bold;
-  font-size: 0.8rem;
+  font-size: 2rem;
   margin-bottom: 1rem;
-  width: 11rem;
+  width: 25rem;
   font-style: italic;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
 .indicacion{
-  font-size: 1rem;
+  font-size: 3rem;
   margin-bottom: 1rem;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
 .fila{
-  display: flex;
+  display:flex;
   flex-wrap: wrap;
-  margin: 0.5rem 0;
+  margin: 1.3rem 0;
+  align-items: flex-start;
 }
 
 .datos{
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   padding: 0;
 }
 
@@ -50,23 +51,22 @@
 }
 
 .fila label{
-  font-size: 0.5rem;
-  width: 5rem;
-  margin-right: 1rem;
-  height: 0.5rem;
-  margin-top: 0.2rem;
+  font-size: 1.5rem;
+  width: 14rem;
+  margin-right: 1.5rem;
+  height: 1.5rem;
 }
 
 .fila input:focus{
   outline: none;
 }
 .fila input{
-  width: 10rem;
-  height: 1rem;
+  width: 23rem;
+  height: 2rem;
   border-radius: 7px;
   box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25); 
   border: 1px solid rgba(0, 0, 0, 0.25);
-  font-size: 0.5rem;
+  font-size: 1.5rem;
   padding: 1px .5rem;
 }
 
@@ -75,10 +75,10 @@
   color: white;
   border-radius: 7px;
   padding: 5px 15px;
-  font-size: 0.5rem;
+  font-size: 1.7rem;
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-shadow: 2px 4px 1px rgba(0, 0, 0, 0.25);
-  margin-top: 1rem; 
+  margin-top: 3rem; 
 }
 
 .btnRegistro button:active {
