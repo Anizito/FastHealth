@@ -11,7 +11,7 @@
         <title>Fast Health</title>
     </head>
 
-        <body>
+    <body>
     <header>
         <img src="public/assets/images/logo.png" alt="">
         <h2 class="titulo"> Fast Health Inc.</h2>
@@ -20,15 +20,16 @@
             &#8801
         </label>
         <nav class="menu">
-            <a href="#banner">Pagina Principal</a>
-            <a href="#">Registrarse</a>
-            <a href="#">Contactános</a>
+            <a href="#" id="paginaprincipal">Pagina Principal</a>
+            <a href="#" id="formulario">Registrarse</a>
+            <a href="#" id="contactos">Contactános</a>
             <label for="check" class="esconder-menu">
                 &#215
             </label>
         </nav>     
     </header>
-    <section  id="banner">
+    
+    <section  id="banner" class="paginaprincipal">
         <div class="conteiner-banner">
             <h3><span>Descarga nuestra app y accede a <br>información médica en segundos</span></h3>
             <h2><br>¡Tu salud, nuestra prioridad! Encuentra medicamentos<br>y centros médicos cerca de ti.</h2>
@@ -136,7 +137,7 @@
             <img src="public/assets/images/medicamentosApp.png" class ="imagen2" alt="fondo de medicamentos" >
         </div>
         
-        <section id="register-form">
+        <section id="register-form" class="contactos">
 
             <h2>
                 <p style="font-size: 35px; text-align: center; ">SIEMPRE A TU DISPOSICION</p>
@@ -175,7 +176,7 @@
             <p>Siempre a tu disposicion.</p>
           </footer>
 
-  <section id="barra_contacto_redes">
+  <section id="barra_contacto_redes" >
             <div class="logo-texto">
                 <h4><img src="public/assets/images/logo_alterno.png"></h4>
                 <p>
@@ -213,6 +214,8 @@
                 <a href="https://youtu.be/cXXakE8-84g" target="_blank"><img src="public/assets/images/Youtube_logo.png"></a>
             </div>
         </section>
+
+        <script src="public/assets/scripts/index.js"></script>
 
 </body>
 </html>
